@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+:root {
+  --title-color-01: #574240;
+  --title-color-02: #0095dc;
+  --title-color-03: #384968;
+  --primary-color: #9c3435;
+}
+
+.lb-data .lb-number {
+  display: none !important;
+}
+
+.color-title {
+  color: var(--title-color-03);
+}
+
+.box-produtos {
+  background: #fff;
+  padding: 2rem;
+  box-shadow: 5px 5px 20px 5px #d5d5d5;
+  z-index: 2 !important;
+  position: center;
+  margin-top: 2rem;
+}
+
+.precoTotensStyle {
+  font-weight: bold;
+  color: #c91e24;
+  font-size: 22px;
+  margin-top: 16px;
+  background: rgb(228, 228, 110);
+  border-radius: 4px;
+  padding: 0.8rem;
+  text-transform: uppercase;
+}
+
+span {
+  text-decoration: line-through;
+  font-size: 18px;
+}
+
+#content-main {
+ 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0.8rem;
+  background-image: linear-gradient(
+    to bottom,
+    #fafafa,
+    #fafafa,
+    #fafafa,
+    #fafafa,
+    #fafafa,
+    #fafafa,
+    #fbfbfb,
+    #fbfbfb,
+    #fcfcfc,
+    #fdfdfd,
+    #fefefe,
+    #ffffff
+  );
+  font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+  padding-top: 1rem;
+}
+
+.main-classe{
+  padding:5rem;
+  color:rgb(73, 72, 72);
+}
+
+.main-classe p{
+  font-weight:400;
+  font-size:1rem;
+  line-height: 1.2;
+}
+
+.wp-block-image{
+  display:none!important;
+}
+
+.link-content {
+  text-decoration: none !important;
+}
+
+#box-01 {
+  width: 100%;
+  box-shadow: 5px 5px 20px 5px #504e4e;
+  border: 1px solid #333 !important;
+}
+
+#box-02 {
+  width: 100%;
+  justify-content: center;
+
+  box-shadow: 5px 5px 20px 5px #504e4e;
+  border: 1px solid #333 !important;
+}
+
+.img-covid-mask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+  height: 507px;
+  border-radius: 50%;
+}
+
+.text-button-size {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 2rem;
+}
+
+.btn-primary-mod {
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+
+  background: #0f9d58 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 1.4rem;
+  color: #fff;
+}
+
+h3.text-promocao {
+  text-align: center !important;
+  text-decoration: none !important;
+  font-size: 28 !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  color: var(--title-color-02);
+}
+
+#contato {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+}
+
+.red {
+  text-decoration: none;
+  color: #c91e24;
+  font-size: 18px;
+}
+
+.precoTotensStyle2 {
+  font-weight: bold;
+  color: #c91e24;
+  font-size: 16px;
+  margin-top: 16px;
+  background: rgb(228, 228, 110);
+  border-radius: 4px;
+  padding: 0.8rem;
+  text-transform: uppercase;
+  list-style: none;
+}

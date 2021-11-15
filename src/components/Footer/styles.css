@@ -1,0 +1,35 @@
+
+#footer-main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color:#FAFAFA;
+    color: #333;
+    padding:1.6rem;
+  }
+
+  .p-text-footer {
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--title-color-03);
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5rem;
+    color: #333;
+  }
+
+  .p-text-footer a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    text-decoration: none!important;
+}
+
+.red{
+
+  color:rgb(189, 57, 68);
+  font-size: 22px;
+}
+  
